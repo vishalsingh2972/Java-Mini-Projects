@@ -4,4 +4,4 @@ In this project, I have built a Hospital Management application which can be use
 1. Admit a new patient 
 2. Get all patients from a diagnosis
 
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://gfycat.com/determinedvariablebee))
+![](https://github.com/vishalsingh2972/Mini-Projects/blob/main/HospitalManagement/mr-bean-hospital.mp4)
