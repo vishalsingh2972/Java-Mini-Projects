@@ -4,12 +4,4 @@ In this project, I have built a Hospital Management application which can be use
 1. Admit a new patient 
 2. Get all patients from a diagnosis
 
-
-
-
-https://user-images.githubusercontent.com/106817047/211212587-da5df7d3-8243-43d2-bc34-c4295f801ad8.mp4
-
-
-
-https://user-images.githubusercontent.com/106817047/211212593-6f91eb59-f77f-45a8-8f24-1f86f0e165ab.mp4
-
+![ezgif-1-bd678786e5](https://user-images.githubusercontent.com/106817047/211212675-f40639d3-4cf6-4ea6-bfa9-7f30bd3c5bb2.gif)
