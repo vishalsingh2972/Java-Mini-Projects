@@ -4,4 +4,12 @@ In this project, I have built a Hospital Management application which can be use
 1. Admit a new patient 
 2. Get all patients from a diagnosis
 
-![](https://github.com/vishalsingh2972/Mini-Projects/blob/main/HospitalManagement/mr-bean-hospital.mp4)
+
+
+
+https://user-images.githubusercontent.com/106817047/211212587-da5df7d3-8243-43d2-bc34-c4295f801ad8.mp4
+
+
+
+https://user-images.githubusercontent.com/106817047/211212593-6f91eb59-f77f-45a8-8f24-1f86f0e165ab.mp4
+
