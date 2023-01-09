@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.core.config.plugins.PluginAttribute;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import com.infy.hospitalmanagement.dto.PatientDTO;
@@ -24,11 +25,11 @@ public class PatientAPI {
 	private PatientService patientService;
 
 	@GetMapping(value = "/patients/{diagnosis}")
-	public ResponseEntity<List<PatientDTO>>getPatientsByDiagnosis(@PathVariable @Valid @Pattern(regexp="[a-zA-Z0-9/s]+", message = "{patient.diagnosis.invalid}") String diagnosis) throws PatientAdmissionException{
+	public ResponseEntity<List<PatientDTO>>getPatientsByDiagnosis(@PathVariable @Pattern(regexp="[a-zA-Z0-9/s]+", message = "{patient.diagnosis.invalid}") String diagnosis) throws PatientAdmissionException{
 
+		List<PatientDTO> patientDTO = patientService.getListOfPatients(diagnosis);
 
-
-		return null;
+		return new ResponseEntity<>(patientDTO, HttpStatus.OK);
 		
 	}
 
@@ -36,10 +37,9 @@ public class PatientAPI {
 	public ResponseEntity<PatientDTO>admitPatient(@Valid @RequestBody  PatientDTO patientDTO) throws PatientAdmissionException
 	{
 
+		PatientDTO patientDTO2  = patientService.admitPatient(patientDTO);
 
-
-
-		return null;
+		return new ResponseEntity<>(patientDTO2,HttpStatus.CREATED);
 		
 	}
 

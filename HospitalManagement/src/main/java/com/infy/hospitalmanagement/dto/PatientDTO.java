@@ -1,5 +1,7 @@
 package com.infy.hospitalmanagement.dto;
 
+import com.infy.hospitalmanagement.entity.Patient;
+
 import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PastOrPresent;
