@@ -1,4 +1,4 @@
-# Rent A Car
+# Rent A Car application
 
 In this project, I have built a Car Rental application which can be used to book a car for rent and view all the bookings based on a car type. I have implemented the following functionalities in the application
 1. Rent a Car by a customer 
