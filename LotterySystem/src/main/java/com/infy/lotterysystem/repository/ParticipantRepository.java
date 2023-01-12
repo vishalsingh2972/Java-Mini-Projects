@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface ParticipantRepository extends CrudRepository<Participant, Integer> {
 
-//    List<Participant> findByCouponNumber (String couponNumber);
     Participant findByCouponNumber (String couponNumber);
 
 }
