@@ -1,0 +1,23 @@
+30-Dec-2022 17:46:32 INFO - HV000001: Hibernate Validator 6.2.0.Final
+30-Dec-2022 17:46:33 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+30-Dec-2022 17:46:33 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+30-Dec-2022 17:46:35 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-Dec-2022 17:46:35 INFO - Finished Spring Data repository scanning in 31 ms. Found 0 JPA repository interfaces.
+30-Dec-2022 17:46:38 INFO - Tomcat initialized with port(s): 1156 (http)
+30-Dec-2022 17:46:38 INFO - Initializing ProtocolHandler ["http-nio-1156"]
+30-Dec-2022 17:46:38 INFO - Starting service [Tomcat]
+30-Dec-2022 17:46:38 INFO - Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-Dec-2022 17:46:38 INFO - Initializing Spring embedded WebApplicationContext
+30-Dec-2022 17:46:38 INFO - Root WebApplicationContext: initialization completed in 5141 ms
+30-Dec-2022 17:46:38 INFO - HikariPool-1 - Starting...
+30-Dec-2022 17:46:40 INFO - HikariPool-1 - Start completed.
+30-Dec-2022 17:46:40 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+30-Dec-2022 17:46:40 INFO - HHH000412: Hibernate ORM core version 5.6.3.Final
+30-Dec-2022 17:46:41 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Dec-2022 17:46:41 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-Dec-2022 17:46:42 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Dec-2022 17:46:42 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-Dec-2022 17:46:42 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-Dec-2022 17:46:43 INFO - LiveReload server is running on port 35729
+30-Dec-2022 17:46:43 INFO - Starting ProtocolHandler ["http-nio-1156"]
+30-Dec-2022 17:46:43 INFO - Tomcat started on port(s): 1156 (http) with context path ''
