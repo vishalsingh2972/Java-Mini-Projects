@@ -1,4 +1,4 @@
-# TV Series
+# TV Series application
 
 In this project, I have built a TV Series application which can be used to register a user and view all the details of a given user. I have implemented the following functionalities in the application
 1. Register a new user 
