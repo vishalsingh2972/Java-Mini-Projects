@@ -13,7 +13,7 @@ public class PatientValidator {
 	}
    public static void validatePatient(PatientDTO patientDTO) throws PatientAdmissionException
    {
-	   if(isValidDateOfBirth(patientDTO.getDateOfBirth()) == false){
+	   if(!isValidDateOfBirth(patientDTO.getDateOfBirth())){
            throw new PatientAdmissionException("PatientValidator.INVALID_DOB");
        }
    }
