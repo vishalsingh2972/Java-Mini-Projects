@@ -40,22 +40,14 @@ public class MovieBookingValidator {
 	}
 	public static Boolean isValidCustomerPhoneNo(Long customerPhoneNo) throws MovieBookingException
 	{
-		String mob = customerPhoneNo.toString(); //converting long number to string format
-
-		if(mob.length() == 10)
-		{
-			char c = mob.charAt(0); //character present at 1st index position of String mob
-			Integer a = Character.getNumericValue(c);
-
-			if((a <= 9) && (a >= 3)){
+		String regexp = "[3-9]{1}[0-9]{9}";
+		
+			if(customerPhoneNo.toString().matches(regexp)){
 				return true;
 			}
 			else {
 				return false;
 			}
-		}
-
-		return false;
 		
 	}
 }
