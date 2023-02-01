@@ -12,6 +12,8 @@ import com.infy.moviebooking.service.MovieBookingService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping(value = "/api")
 @Validated
@@ -21,7 +23,7 @@ public class MovieBookingAPI {
 	private MovieBookingService movieBookingService;
 
 	@PostMapping(value = "/movie")
-	public ResponseEntity<MovieBookingDTO> bookMovie(MovieBookingDTO movieBookingDTO) throws MovieBookingException
+	public ResponseEntity<MovieBookingDTO> bookMovie(@RequestBody @Valid MovieBookingDTO movieBookingDTO) throws MovieBookingException
 	{
 
 		MovieBookingDTO dto1 = movieBookingService.bookMovie(movieBookingDTO);
