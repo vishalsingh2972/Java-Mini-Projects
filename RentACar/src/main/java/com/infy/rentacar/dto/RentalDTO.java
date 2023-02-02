@@ -18,14 +18,15 @@ public class RentalDTO {
 	@FutureOrPresent(message = "{rental.bookingdate.invalid}")
 	private LocalDate bookingStartDate;
 
-	@NotNull(message = "{rental.customername.absent}")
+	@NotNull(message = "{rental.duration.absent}")
 	@Min(value = 1,  message = "{rental.duration.invalid}")
 	@Max(value = 30,  message = "{rental.duration.invalid}")
 	private Integer duration;
 
-	@NotNull(message = "{rental.duration.absent}")
-	@Pattern(regexp = "[A-Z][a-z]+(\\s[A-Z][a-z]+)*", message = "{rental.customername.invalid}")
+	@NotNull(message = "{rental.customername.absent}")
+	@Pattern(regexp = "[A-Za-z]+(\s[A-Za-z]+)*", message = "{rental.customername.invalid}")
 	private String customerName;
+	
 	private Long mobileNumber;
 	public Integer getRentalId() {
 		return rentalId;
