@@ -16,7 +16,7 @@ public class Validator {
 	}
 	public static Boolean isValidContactNumber(Long mobileNumber)
 	{
-		String regex = "[0-9]{10}";
+		String regex = "[1-9]{1}[0-9]{9}";
 
 		if(mobileNumber.toString().matches(regex)){ //Need to use toString as Long is primitive so need to convert  that as string type; Basically converting mobileNumber which is Long to string type and then comparing it with a String regex
 			return true;
