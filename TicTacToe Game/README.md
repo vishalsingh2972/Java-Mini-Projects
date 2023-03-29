@@ -1,6 +1,6 @@
 # Tic Tac Toe game
 
-In this project, I have built a simple multiplayer Tic Tac Toe game using Java
+In this project, I have built a multiplayer Tic Tac Toe game using Java
 
 ## Game rules
 This is a very simple Tic Tac Toe Game and it's played as follows:
