@@ -13,4 +13,4 @@ This is a very simple Tic Tac Toe Game and it's played as follows:
 - If none of the players is able to win before the board runs out of available cells it's declared a draw
 - Enjoy
 
-![youtube-video-gif](https://user-images.githubusercontent.com/106817047/228478813-dc13451a-6183-4520-be6f-761b8128ad0d.gif)
+     ![youtube-video-gif](https://user-images.githubusercontent.com/106817047/228478813-dc13451a-6183-4520-be6f-761b8128ad0d.gif)
