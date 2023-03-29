@@ -2,7 +2,7 @@
 
 In this project, I have built a simple multiplayer Tic Tac Toe game with
 
-## Tic Tac Toe's rules
+## Game rules
 
 - The game start with both player choosing their names.
 - Player 1 is playing as 'X', while player 2 plays as 'O'
