@@ -26,7 +26,7 @@ public class TicTacToeGame {
 //if all cells filled without anyone winning // DRAW condition
             if(count == board.length * board[0].length){ // if all cells filled without any winning it will enter this //i.e when game draw condition
                 System.out.println("Draw ho gaya bhai");
-                break; //gameOver so it exits while(!gameOver) loop and reaches "Chalo start new game"
+                break; //all cells filled, so game is over, so it exits while(!gameOver) loop and reaches "Chalo start new game"
             }
 
             System.out.print("Player " + player + " enter: "); //ask the user for the row and column of the cell where he is going to enter his input
